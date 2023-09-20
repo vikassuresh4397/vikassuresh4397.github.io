@@ -257,7 +257,7 @@ nav.navbar {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /* background-image: url('./assets/img/banner-bg.png'); */
+  background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,7 +335,7 @@ nav.navbar {
 #about{
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /* background-image: url('./assets/img/3d-abstract-space-sky-with-stars-nebula.jpg'); */
+  background-image: url('./assets/img/3d-abstract-space-sky-with-stars-nebula.jpg');
   width: 100%;
   height:10%;
   border: 10px solid linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -402,7 +402,7 @@ nav.navbar {
 #skills{
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /* background-image: url('./assets/img/footer-bg.png'); */
+  background-image: url('./assets/img/footer-bg.png');
   width: 100%;
   height:10%;
   border: 10px solid linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

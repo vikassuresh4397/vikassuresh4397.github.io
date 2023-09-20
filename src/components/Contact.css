@@ -1,39 +1,22 @@
-/* .social-icon>#harry{
-  
-    
-   
-  width:60%
-
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text */
+  height: 100vh; /* Set the height to 100% of the viewport height to center vertically */
 }
 
-#harry{
-    background-color: black;
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
+.social-icon {
+  margin-top: 20px; /* Add some space between the header and social icons */
+}
 
-
-
-  .footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-
-
-
- */
-
-
-
-
-
-
-
-
-
+/* Style for the buttons */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* font-size: 16px; */
+  margin: 5px;
+  /* text-transform: uppercase; */
+}
