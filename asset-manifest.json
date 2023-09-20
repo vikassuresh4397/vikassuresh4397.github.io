@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e39b204.css",
+    "main.css": "/static/css/main.83f252a6.css",
     "main.js": "/static/js/main.7759c31a.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/3d-abstract-space-sky-with-stars-nebula.jpg": "/static/media/3d-abstract-space-sky-with-stars-nebula.10591a60ee9b1424effc.jpg",
@@ -10,11 +10,13 @@
     "static/media/2.jpg": "/static/media/2.fcd667289ef3c8e1b044.jpg",
     "static/media/1.jpg": "/static/media/1.5194321e45d2e510293b.jpg",
     "static/media/Vikas-Suresh-Resume.pdf": "/static/media/Vikas-Suresh-Resume.be616ce2eced8d708837.pdf",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/VSCODE.png": "/static/media/VSCODE.9bc6e588b5f2b867a8a4.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/vikasprofpic-removebg-preview_clipdrop-relight.jpg": "/static/media/vikasprofpic-removebg-preview_clipdrop-relight.073dc15301cb88082d48.jpg",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/Typescript.png": "/static/media/Typescript.17936c69824e11a996c4.png",
@@ -31,12 +33,12 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.44b9addb3102ffa4b661011f6f7caa59.svg",
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.0e39b204.css.map": "/static/css/main.0e39b204.css.map",
+    "main.83f252a6.css.map": "/static/css/main.83f252a6.css.map",
     "main.7759c31a.js.map": "/static/js/main.7759c31a.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e39b204.css",
+    "static/css/main.83f252a6.css",
     "static/js/main.7759c31a.js"
   ]
 }
