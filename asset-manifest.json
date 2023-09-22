@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.119ede11.css",
-    "main.js": "/static/js/main.46581a12.js",
+    "main.js": "/static/js/main.33e744be.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/3d-abstract-space-sky-with-stars-nebula.jpg": "/static/media/3d-abstract-space-sky-with-stars-nebula.10591a60ee9b1424effc.jpg",
     "static/media/3.jpg": "/static/media/3.f6ef76b089adca7a73c6.jpg",
@@ -9,7 +9,7 @@
     "static/media/5.jpg": "/static/media/5.2b480c526453fe902147.jpg",
     "static/media/2.jpg": "/static/media/2.fcd667289ef3c8e1b044.jpg",
     "static/media/1.jpg": "/static/media/1.5194321e45d2e510293b.jpg",
-    "static/media/Vikas-Suresh-Resume.pdf": "/static/media/Vikas-Suresh-Resume.be616ce2eced8d708837.pdf",
+    "static/media/Vikas-Suresh-Resume.pdf": "/static/media/Vikas-Suresh-Resume.a197dc91a0d6386f37e3.pdf",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
     "static/media/vikas_pic_blackcoat.jpg": "/static/media/vikas_pic_blackcoat.ccc87922ef0f9a643601.jpg",
@@ -34,11 +34,11 @@
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.119ede11.css.map": "/static/css/main.119ede11.css.map",
-    "main.46581a12.js.map": "/static/js/main.46581a12.js.map",
+    "main.33e744be.js.map": "/static/js/main.33e744be.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.119ede11.css",
-    "static/js/main.46581a12.js"
+    "static/js/main.33e744be.js"
   ]
 }
