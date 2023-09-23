@@ -39,9 +39,9 @@ export const Projects = () => {
  const ProjectInfo =[
   {
   "Project_No":1,
-  "Name":"COzy-Home-Rentals",
+  "Name":"RealEstateExplore.com",
   "ImageUrl":"https://user-images.githubusercontent.com/118278010/246758460-fcdde12b-b3b4-4b02-b12d-527d38580763.png",
-  "Description":"COzy-Home-Rentals is an e-commerce platform which acts as a one stop solution to buy, sell or rent properties with ease. Users can browse through various properties, schedule appointments, directly buy the properties and even list their own properties to sell on this platform.",
+  "Description":"RealEstateExplore.com is an e-commerce platform which acts as a one stop solution to buy, sell or rent properties with ease. Users can browse through various properties, schedule appointments, directly buy the properties and even list their own properties to sell on this platform.",
   "TypeOfProject": "Individual",
   "Duration":"1 week",
   "totalTechStackImages":[  
@@ -59,9 +59,9 @@ export const Projects = () => {
  },
  {
   "Project_No":2,
-  "Name":"Robo Minds",
+  "Name":"InterViewWizard",
   "ImageUrl":"https://camo.githubusercontent.com/6fcfa5d05456d7c4688b8d5fb031d1105efecffe36e8fc6b9bf198fae5fe473a/68747470733a2f2f692e706f7374696d672e63632f6d44524b315639502f53637265656e73686f742d3232312e706e67",
-  "Description":"Robo Minds is a self-interview preparation platform leveraging the power of OpenAI. The platform aims to assist job seekers and interviewees in enhancing their interview skills, boosting their confidence, and improving their chances of success during the interview process.",
+  "Description":"InterViewWizard is a self-interview preparation platform leveraging the power of OpenAI. The platform aims to assist job seekers and interviewees in enhancing their interview skills, boosting their confidence, and improving their chances of success during the interview process.",
   "TypeOfProject": "Group-Project-(Total members - 4)",
   "Duration":"3 Days",
   "totalTechStackImages":[  
@@ -79,9 +79,9 @@ export const Projects = () => {
  },
  {
   "Project_No":3,
-  "Name":"MedZ+(Tata-1mg-clone)",
+  "Name":"CureMeds.com-(Tata-1mg-clone)",
   "ImageUrl":"https://user-images.githubusercontent.com/92313981/229344642-4c85116c-375c-4969-9814-23e0fca3cacd.png",
-  "Description":"Tata 1mg is India's leading digital healthcare platform. From doctor consultations on chat to online pharmacy and lab tests at home: we have it all covered for you. Having delivered over 25 million orders in 1000+ cities till date, we are on a mission to bring care to health to give you a flawless healthcare experience. Tata 1mg is India's leading online chemist with over 2 lakh medicines available at the best prices. We are your one-stop destination for other healthcare products as well, such as over the counter pharmaceuticals, healthcare devices and homeopathy and ayurveda medicines.",
+  "Description":"CureMeds.com is a clone of Tata 1mg is India's leading digital healthcare platform. From doctor consultations on chat to online pharmacy and lab tests at home: we have it all covered for you. Having delivered over 25 million orders in 1000+ cities till date, we are on a mission to bring care to health to give you a flawless healthcare experience. Tata 1mg is India's leading online chemist with over 2 lakh medicines available at the best prices. We are your one-stop destination for other healthcare products as well, such as over the counter pharmaceuticals, healthcare devices and homeopathy and ayurveda medicines.",
   "TypeOfProject": "Group-Project-(Total members - 4)",
   "Duration":"1 week",
   "totalTechStackImages":[  

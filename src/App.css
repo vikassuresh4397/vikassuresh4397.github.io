@@ -486,7 +486,25 @@ nav.navbar {
 }
 
 /************ Footer Css ************/
+@media screen and (max-width: 549px) {
 
+
+  
+  /* Reduce image size after 550px viewport width */
+  #lastfooter>img {
+    max-width: 100%; /* Adjust the percentage as needed */
+    /* border:5px solid green ; */
+  }
+
+
+}
+/* 
+
+@media screen and (max-width: 576px) {
+  #lastfooter>.social-icon {
+    border:3px solid blue;
+  }
+} */
 
 
 /* githubfolder.css */
@@ -687,6 +705,10 @@ img {
   /* Reduce image size after 550px viewport width */
   img {
     max-width: 80%; /* Adjust the percentage as needed */
+  }
+
+  #wowfooter>img {
+    max-width: 100%; /* Adjust the percentage as needed */
   }
 }
 

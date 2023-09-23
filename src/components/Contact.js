@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import "./Contact.css"
+// import "./Contact.css"
 import { MailchimpForm } from "./MailchimpForm";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
@@ -78,31 +78,32 @@ export const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setButtonText('Sending...');
+    // e.preventDefault();
+    // setButtonText('Sending...');
 
-    // Compose the email parameters
-    const emailParams = {
-      firstName: formDetails.firstName,
-      lastName: formDetails.lastName,
-      email: formDetails.email,
-      phone: formDetails.phone,
-      message: formDetails.message,
-    };
+    // // Compose the email parameters
+    // const emailParams = {
+    //   firstName: formDetails.firstName,
+    //   lastName: formDetails.lastName,
+    //   email: formDetails.email,
+    //   phone: formDetails.phone,
+    //   message: formDetails.message,
+    // };
 
-    // Send the email using EmailJS
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, emailParams, USER_ID)
-      .then((response) => {
-        console.log('Email sent:', response);
-        setButtonText('Send');
-        setFormDetails(formInitialDetails);
-        setStatus({ success: true, message: 'Message sent successfully' });
-      })
-      .catch((error) => {
-        console.error('Error sending email:', error);
-        setButtonText('Send');
-        setStatus({ success: false, message: 'Something went wrong, please try again later.' });
-      });
+    // // Send the email using EmailJS
+    // emailjs.send(SERVICE_ID, TEMPLATE_ID, emailParams, USER_ID)
+    //   .then((response) => {
+    //     console.log('Email sent:', response);
+    //     setButtonText('Send');
+    //     setFormDetails(formInitialDetails);
+    //     setStatus({ success: true, message: 'Message sent successfully' });
+    //   })
+    //   .catch((error) => {
+    //     console.error('Error sending email:', error);
+    //     setButtonText('Send');
+    //     setStatus({ success: false, message: 'Something went wrong, please try again later.' });
+    //   });
+    setFormDetails(formInitialDetails)
   };
 
   return (
@@ -121,22 +122,23 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div id="ddd" className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Get In Touch</h2>
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} action="https://formsubmit.co/vikassuresh4397@gmail.com" method="POST">
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
+                      <input type="text"  placeholder="First Name" id="fullName" name="fullName" required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
+                      <input type="text" 
+                      placeholder="Last Name"  id="lastName" name="lastName" required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} />
+                      <input type="email"  placeholder="Email Address"  id="email" name="email" required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                      <input type="phone" placeholder="Phone No."  id="phone" name="phone" required />
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
+                      <textarea rows="6"  placeholder="Message"  id="message" name="message" required ></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {
@@ -145,6 +147,7 @@ export const Contact = () => {
                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                       </Col>
                     }
+
                   </Row>
                 </form>
               </div>}

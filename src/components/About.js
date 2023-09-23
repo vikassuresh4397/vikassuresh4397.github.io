@@ -5,8 +5,13 @@ import image2 from "../assets/images/2.jpg";
 import image3 from "../assets/images/3.jpg";
 import image4 from "../assets/images/4.jpg";
 import image5 from "../assets/images/5.jpg";
-import image6 from "../assets/img/vikasprofpic-removebg-preview_clipdrop-relight.jpg";
-import Resume from "../assets/ResumeLast/Vikas-Suresh-Resume.pdf";
+import {FiMail, FiPhone } from "react-icons/fi";
+// import image6 from "../assets/img/vikasprofpic-removebg-preview_clipdrop-relight.jpg";
+// import Resume from "../assets/ResumeLast/Vikas-Suresh-Resume.pdf";
+import Resume from "../assets/ResumeLatest/Vikas-Suresh-Resume.pdf";
+import image6 from "../assets/img/vikas_pic_blackcoat.jpg"
+
+
 
 const About = () => {
   // Array of images from the image folder
@@ -41,16 +46,26 @@ const About = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-    "https://drive.google.com/file/d/1xkavAWpW3DfPGbizyG24akdZjLor_2o0/view?usp=sharing";
+    "https://drive.google.com/file/d/1wCB07ly2sLSkm0UhprhqmGrm_reZOw93/view?usp=sharing";
   link.target = "_blank";
   link.download = "Vikas-Suresh-Resume.pdf";
     link.click();
 
     // Redirect to the downloaded resume after a delay
     setTimeout(() => {
-      window.open( "https://drive.google.com/file/d/1xkavAWpW3DfPGbizyG24akdZjLor_2o0/view?usp=sharing"
+      window.open( "https://drive.google.com/file/d/1wCB07ly2sLSkm0UhprhqmGrm_reZOw93/view?usp=sharing"
       , "_blank");
     }, 1000);
+  };
+  
+  const showPhoneNumber = () => {
+    const phoneNumber = "+91-9372702927";
+    
+    // Create a string with the phone number and icon
+    const alertMessage = `📞 Phone Number: ${phoneNumber}`;
+    
+    // Show the alert
+    alert(alertMessage);
   };
   
   
@@ -83,6 +98,13 @@ const About = () => {
 
             <h3>Hobbies & Interests🤓🎨🖼️💰</h3>
             <p>Shadow Painting & UI and UX designing</p>
+            <p>Contact ME 👇🏻</p>
+            
+            <button id="contact-email" style={{ color: "white"}}>vikassuresh4397@gmail.com</button>
+            <br />
+            <button   id="contact-phone">  <a id="contact-phone" href="#phone" className="funnyicon" onClick={showPhoneNumber} >
+ +91-9372702927
+</a></button>
 
             <div >
               <h3>Resume 📄</h3>

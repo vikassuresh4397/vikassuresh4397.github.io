@@ -5,7 +5,8 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
-import Resume from "../assets/ResumeLast/Vikas-Suresh-Resume.pdf";
+// import Resume from "../assets/ResumeLast/Vikas-Suresh-Resume.pdf";
+import Resume from "../assets/ResumeLatest/Vikas-Suresh-Resume.pdf";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -79,7 +80,9 @@ export const NavBar = () => {
               }}
             /> */}
             <img
-              src="https://vikassuresh4397.github.io/static/media/vikasprofpic-removebg-preview_clipdrop-relight.073dc15301cb88082d48.jpg"
+              // src="https://vikassuresh4397.github.io/static/media/vikasprofpic-removebg-preview_clipdrop-relight.073dc15301cb88082d48.jpg"
+
+              src="https://user-images.githubusercontent.com/112813417/269988004-1f81ece0-4a47-4ba4-98fd-14adde48430c.jpg"
               alt="Logo"
               style={{
                 borderRadius: "50%",
@@ -187,7 +190,7 @@ export const NavBar = () => {
               <span
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1xkavAWpW3DfPGbizyG24akdZjLor_2o0/view?usp=sharing"
+                    "https://drive.google.com/file/d/1wCB07ly2sLSkm0UhprhqmGrm_reZOw93/view?usp=sharing"
                   )
                 }
                 id="resume-button-1"
@@ -203,7 +206,7 @@ export const NavBar = () => {
                   <button
                     onClick={() =>
                       window.open(
-                        "https://drive.google.com/file/d/1xkavAWpW3DfPGbizyG24akdZjLor_2o0/view?usp=sharing"
+                        "https://drive.google.com/file/d/1wCB07ly2sLSkm0UhprhqmGrm_reZOw93/view?usp=sharing"
                       )
                     }
                     id="resume-button-1"
