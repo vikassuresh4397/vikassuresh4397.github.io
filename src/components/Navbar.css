@@ -162,3 +162,11 @@ nav.navbar {
   .nav-link skills{
     border:1px solid white;
   }
+
+  /* @media (max-width: 300px) {
+    #nav_pic{
+      width:100%;
+
+
+    }
+  } */

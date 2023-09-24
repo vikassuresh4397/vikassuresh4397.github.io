@@ -89,6 +89,7 @@ export const NavBar = () => {
                 width: "50px",
                 height: "50px",
               }}
+              id="nav_pic"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
