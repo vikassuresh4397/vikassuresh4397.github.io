@@ -98,14 +98,16 @@ const About = () => {
 
             <h3>Hobbies & Interests🤓🎨🖼️💰</h3>
             <p>Shadow Painting & UI and UX designing</p>
-            <p>Contact ME 👇🏻</p>
-            
-            <button id="contact-email" style={{ color: "white"}}>vikassuresh4397@gmail.com</button>
+            <h3>Contact ME 👇🏻</h3>
+            <button id="contact-email" style={{ color: "white"}}>📧-vikassuresh4397@gmail.com</button>
             <br />
             <button   id="contact-phone">  <a id="contact-phone" href="#phone" className="funnyicon" onClick={showPhoneNumber} >
- +91-9372702927
+            📞- (+91-9372702927)
 </a></button>
 
+<br />
+<br />
+<br />
             <div >
               <h3>Resume 📄</h3>
               <a

@@ -422,3 +422,12 @@ background-color: white;
 .button-container button {
   margin-right: 10px;
 }
+
+
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
