@@ -55,7 +55,8 @@ export const Footer = () => {
     >
      
       <div className="social-icon">
-      <h1>Follow me on👇🏻👇🏻</h1>
+      <h2>Follow me on👇🏻👇🏻👇🏻</h2>
+      <br />
         <a id="contact-linkedin" href="https://www.linkedin.com/in/vikas-suresh-05a60b23b/">
           <img src={navIcon1} alt="Icon" />
         </a>
