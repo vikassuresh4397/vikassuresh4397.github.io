@@ -1,5 +1,6 @@
 import React from 'react'
-import GithubCalendar from "react-github-calendar"
+import GithubCalendar from "react-github-calendar";
+import "./Navbar.css";
 const GithubFolder = () => {
   return (
     <div id="githubeverything">

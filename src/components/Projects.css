@@ -371,6 +371,11 @@ margin-right: 5px;
   
   @media (max-width: 370px) {
 
+
+
+
+
+
     .project-buttons {
       display: flex;
       flex-direction: column;
@@ -392,4 +397,14 @@ margin-right: 5px;
     }
   }
   
-  
+  @media (max-width: 380px) {
+    #frontendbutton #wow {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 300px) {
+    #frontendbutton #wow {
+      font-size: 10px;
+    }
+  }

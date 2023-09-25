@@ -3,6 +3,7 @@ import { Container, Row, Col, Tab, Nav, Button } from "react-bootstrap";
 
 
 import "../components/Projects.css";
+// import "./Projects.css"
 
 // tech stack used
 // FrontEnd image imported
@@ -39,9 +40,9 @@ export const Projects = () => {
  const ProjectInfo =[
   {
   "Project_No":1,
-  "Name":"RealEstateExplore.com",
+  "Name":"RealEstate Explore",
   "ImageUrl":"https://user-images.githubusercontent.com/118278010/246758460-fcdde12b-b3b4-4b02-b12d-527d38580763.png",
-  "Description":"RealEstateExplore.com is an e-commerce platform which acts as a one stop solution to buy, sell or rent properties with ease. Users can browse through various properties, schedule appointments, directly buy the properties and even list their own properties to sell on this platform.",
+  "Description":"RealEstate Explore is an e-commerce platform which acts as a one stop solution to buy, sell or rent properties with ease. Users can browse through various properties, schedule appointments, directly buy the properties and even list their own properties to sell on this platform.",
   "TypeOfProject": "Individual",
   "Duration":"1 week",
   "totalTechStackImages":[  
@@ -115,7 +116,8 @@ export const Projects = () => {
   ],
   "GithubUrl":"https://github.com/vikassuresh4397/Youtube-clone",
   "NetlifyUrl":"https://youtubeclone-vikas.netlify.app/"
- }
+ },
+   
 ]
 
 return (
@@ -124,7 +126,7 @@ return (
   {ProjectInfo.map((project) => (
     <div key={project.Project_No} className="project-card">
       <Container>
-      <button id="frontendbutton"><h1 id="wow">Project-{project.Project_No}-{project.Name}</h1></button>
+      <button id="frontendbutton"><h1 id="wow" className="projectkaname">Project-{project.Project_No}-{project.Name}</h1></button>
         <img id="projectImg" src={project.ImageUrl} alt={project.Name} />
         <h2 className="project-title">{project.Name}</h2>
         <p className="project-description">{project.Description}</p>
