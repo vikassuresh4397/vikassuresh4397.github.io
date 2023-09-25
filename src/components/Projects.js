@@ -54,7 +54,7 @@ export const Projects = () => {
     bro10,
     bro12, bro13, bro14,bro16, bro17, bro18, bro19, bro20
   ],
-  "GithubUrl":"https://github.com/vikassuresh4397/COzy-Home-Rentals/blob/main/README.md",
+  "GithubUrl":"https://github.com/vikassuresh4397/RealEstateExplore.com",
   "NetlifyUrl":"https://homesweeter.netlify.app/"
  },
  {
