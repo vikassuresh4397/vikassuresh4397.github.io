@@ -1,6 +1,7 @@
 import React from 'react'
 import GithubCalendar from "react-github-calendar";
 import "./Navbar.css";
+import "./GithubFolder.css";
 const GithubFolder = () => {
   return (
     <div id="githubeverything">
@@ -41,7 +42,7 @@ const GithubFolder = () => {
 
       <button><h1 className='git'>Github Calendar</h1></button>
       <br />
-        <div id="calendarnow1" ><GithubCalendar id="calendarnow2" className='react-activity-calendar'  username='vikassuresh4397' /></div>
+        <div id="calendarnow1" ><div></div><GithubCalendar id="calendarnow2" className='react-activity-calendar'  username='vikassuresh4397' /></div>
         <br />
     
     

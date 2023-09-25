@@ -95,7 +95,7 @@ export const Skills = () => {
 
         {/* Backend */}
         <div className="section-title">
-          <button id="backendbutton">
+        <button id="frontendbutton">
             <h1>BACKEND</h1>
           </button>
         </div>
@@ -116,7 +116,10 @@ export const Skills = () => {
 
         {/* Tools */}
         <div className="section-title">
-          <button><h1 id="toolsusedbutton">Tools Used</h1></button>
+        <button id="frontendbutton">
+            <h1>TOOLS</h1>
+            
+          </button>
         </div>
         <div className="skills-row">
           {toolsImages.map((image, index) => (

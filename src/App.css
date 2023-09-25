@@ -398,6 +398,48 @@ p.danger {
   margin: 0 auto;
 }
 
+
+@media screen and (max-width: 410px) {
+  #githubeverything .react-activity-calendar__count{
+    font-size: 10px;
+  }
+ 
+  #githubeverything span{
+    font-size: 14px;
+
+    
+
+  }
+}
+
+@media screen and (max-width: 2px){
+
+}
+
+@media screen and (max-width: 320px) {
+  #githubeverything #calendarnow1{
+     
+    width:80%;
+    /* background-color: #6e0d99;
+    border:1px solid red; */
+     /* color:black; */
+     font-size: 10px;
+  }
+  
+  #githubeverything .react-activity-calendar__count{
+    font-size: 5px;
+  }
+ 
+  #githubeverything span{
+    font-size: 7px;
+
+    
+
+  }
+
+}
+
+
 @media screen and (max-width: 270px) {
   #githubeverything img {
     width:80%
@@ -405,9 +447,10 @@ p.danger {
   #githubeverything #calendarnow1{
      
     width:80%;
-    background-color: #6e0d99;
-    border:1px solid red;
-     color:black;
+    /* background-color: #6e0d99;
+    border:1px solid red; */
+     /* color:black; */
+     font-size: 10px;
   }
   .react-activity-calendar{
     width:80%
@@ -418,13 +461,27 @@ p.danger {
 #githubeverything #calendarnow1{
      
   width:90%;
-  background-color: black;
-  border:1px solid red;
+  /* background-color: black; */
+  /* border:1px solid red; */
    /* color:black; */
    display: block;
    margin: 0 auto;
-   border: 3px solid rgb(179, 12, 179);
+   /* border: 3px solid rgb(179, 12, 179); */
+   padding: 2px;
+   
 }
+
+#githubeverything #calendarnow1 {
+  width: 90%;
+  background-color: black;
+  /* border: 1px solid red; */
+  display: block;
+  margin: 0 auto;
+  /* border: 3px solid rgb(179, 12, 179); */
+  padding: 10px; /* Adjust the padding value as needed */
+  border-radius: 5px;
+}
+
 
 
 /* Basic Styles */
