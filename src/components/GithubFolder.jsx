@@ -25,7 +25,7 @@ const GithubFolder = () => {
       <br />
       <img
       id="github-streak-stats"
-        src="https://github-readme-streak-stats.herokuapp.com/?user=vikassuresh4397&theme=dark"
+        src="https://camo.githubusercontent.com/a374c91de53c04e249720512849619025bad963c8cc83c548305e849ddb6c6ff/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d76696b617373757265736834333937267468656d653d676f7468616d26686964655f626f726465723d66616c7365"
         alt="GitHub Streak Stats"
       />
       <br />
