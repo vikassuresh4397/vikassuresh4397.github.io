@@ -27,6 +27,11 @@ const GithubFolder = () => {
         src="https://camo.githubusercontent.com/0f746a1df648f81ba32b34e4db2423dbc2cacb5f4dde83fcf3ae142ebd78dca0/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d76696b617373757265736834333937"
         alt="GitHub Streak Stats"
       />
+      <img
+      id="github-streak-stats"
+        src="https://github-readme-streak-stats.herokuapp.com/?user=vikassuresh4397&theme=dark"
+        alt="GitHub Streak Stats"
+      />
       <br />
       <button><h1 className='git'>Github Languages</h1></button>
       <br />
