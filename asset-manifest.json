@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.73a1632f.css",
-    "main.js": "/static/js/main.613dcf17.js",
+    "main.js": "/static/js/main.7677e136.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/3d-abstract-space-sky-with-stars-nebula.jpg": "/static/media/3d-abstract-space-sky-with-stars-nebula.10591a60ee9b1424effc.jpg",
     "static/media/3.jpg": "/static/media/3.f6ef76b089adca7a73c6.jpg",
@@ -18,6 +18,7 @@
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/JSON.png": "/static/media/JSON.4bdceeb4ca197cb48ce1.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/Typescript.png": "/static/media/Typescript.17936c69824e11a996c4.png",
     "static/media/Dsa.png": "/static/media/Dsa.24991eee32623f453b1c.png",
@@ -34,11 +35,11 @@
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.73a1632f.css.map": "/static/css/main.73a1632f.css.map",
-    "main.613dcf17.js.map": "/static/js/main.613dcf17.js.map",
+    "main.7677e136.js.map": "/static/js/main.7677e136.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73a1632f.css",
-    "static/js/main.613dcf17.js"
+    "static/js/main.7677e136.js"
   ]
 }
