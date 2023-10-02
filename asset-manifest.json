@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.3be9bd80.css",
-    "main.js": "/static/js/main.f1c29ba7.js",
+    "main.js": "/static/js/main.e8a7b972.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/3d-abstract-space-sky-with-stars-nebula.jpg": "/static/media/3d-abstract-space-sky-with-stars-nebula.10591a60ee9b1424effc.jpg",
     "static/media/3.jpg": "/static/media/3.f6ef76b089adca7a73c6.jpg",
     "static/media/4.jpg": "/static/media/4.26cfdfcfa23da7f0e417.jpg",
+    "static/media/Fig. 1. Smart construction safety helmet.png": "/static/media/Fig. 1. Smart construction safety helmet.a1fd068eae631008f52a.png",
     "static/media/5.jpg": "/static/media/5.2b480c526453fe902147.jpg",
     "static/media/2.jpg": "/static/media/2.fcd667289ef3c8e1b044.jpg",
     "static/media/1.jpg": "/static/media/1.5194321e45d2e510293b.jpg",
@@ -20,6 +21,7 @@
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/JSON.png": "/static/media/JSON.4bdceeb4ca197cb48ce1.png",
+    "static/media/fritzing.jpg": "/static/media/fritzing.9296408a781469625f29.jpg",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/Typescript.png": "/static/media/Typescript.17936c69824e11a996c4.png",
     "static/media/Dsa.png": "/static/media/Dsa.24991eee32623f453b1c.png",
@@ -27,6 +29,7 @@
     "static/media/GITHUB.png": "/static/media/GITHUB.f559c21dc5f43a15f86b.png",
     "static/media/GIT.png": "/static/media/GIT.b5723d2fd09355d535e5.png",
     "static/media/NodeJS.png": "/static/media/NodeJS.71a23beab09f12064284.png",
+    "static/media/Arduino.JPG": "/static/media/Arduino.4a2806aba6c009709a66.JPG",
     "static/media/CSS.png": "/static/media/CSS.e31e30fbd381c3f058df.png",
     "static/media/HTML.png": "/static/media/HTML.5139eb66b02855a1c137.png",
     "static/media/CHAKRA UI.png": "/static/media/CHAKRA UI.0719bee98cb0c0b83aeb.png",
@@ -36,11 +39,11 @@
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.3be9bd80.css.map": "/static/css/main.3be9bd80.css.map",
-    "main.f1c29ba7.js.map": "/static/js/main.f1c29ba7.js.map",
+    "main.e8a7b972.js.map": "/static/js/main.e8a7b972.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3be9bd80.css",
-    "static/js/main.f1c29ba7.js"
+    "static/js/main.e8a7b972.js"
   ]
 }
