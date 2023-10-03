@@ -11,6 +11,7 @@ import Home from './components/Home';
 import About from './components/About';
 
 import GithubFolder from './components/GithubFolder';
+import { CivilProjects } from './components/CivilProjects';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
    
       <Skills />
       <Projects />
+      <CivilProjects />
       <GithubFolder />
       <Contact />
       <Footer />

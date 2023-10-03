@@ -3,6 +3,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { FiGithub, FiMail, FiPhone } from "react-icons/fi";
 import "./Contact.css";
+import "./Footer.css"
 import { Col, Row, Container } from "react-bootstrap";
 import { useState } from "react";
 
@@ -12,16 +13,84 @@ export const Footer = () => {
 
 
 
+  // const showPhoneNumber = () => {
+  //   const phoneNumber = "+91-9372702927";
+    
+  //   // Create a string with the phone number and icon
+  //   const alertMessage = `📞 Phone Number: ${phoneNumber}`;
+    
+  //   // Show the alert
+  //   alert(alertMessage);
+  // };
+  
+
+  // const showPhoneNumber = () => {
+  //   const phoneNumber = "+91-9372702927";
+  
+  //   // Create a div element for the alert popup
+  //   const alertPopup = document.createElement("div");
+  //   alertPopup.className = "alert-popup";
+  
+  //   // Create a close button
+  //   const closeButton = document.createElement("span");
+  //   closeButton.className = "close-button";
+  //   closeButton.innerHTML = "&times;"; // The "x" symbol for closing
+  
+  //   // Create a message element with the phone number
+  //   const message = document.createElement("p");
+  //   message.innerText = `📞 Phone Number: ${phoneNumber}`;
+  
+  //   // Append the close button and message to the alert popup
+  //   alertPopup.appendChild(closeButton);
+  //   alertPopup.appendChild(message);
+  
+  //   // Append the alert popup to the document body
+  //   document.body.appendChild(alertPopup);
+  
+  //   // Add an event listener to the close button to hide the popup when clicked
+  //   closeButton.addEventListener("click", () => {
+  //     alertPopup.style.display = "none";
+  //   });
+  
+  //   // Display the alert popup
+  //   alertPopup.style.display = "block";
+  // };
+  
+
   const showPhoneNumber = () => {
     const phoneNumber = "+91-9372702927";
-    
-    // Create a string with the phone number and icon
-    const alertMessage = `📞 Phone Number: ${phoneNumber}`;
-    
-    // Show the alert
-    alert(alertMessage);
-  };
   
+    // Create a div element for the alert popup
+    const alertPopup = document.createElement("div");
+    alertPopup.className = "alert-popup";
+  
+    // Create a close button
+    const closeButton = document.createElement("span");
+    closeButton.className = "close-button";
+    closeButton.innerHTML = "&times;"; // The "x" symbol for closing
+  
+    // Create a message element with the phone number
+    const message = document.createElement("p");
+    const phoneSpan = document.createElement("span");
+    phoneSpan.className = "phone-number"; // Apply the highlighted phone number style
+    phoneSpan.innerText = `📞 Phone Number: ${phoneNumber}`;
+    message.appendChild(phoneSpan);
+  
+    // Append the close button and message to the alert popup
+    alertPopup.appendChild(closeButton);
+    alertPopup.appendChild(message);
+  
+    // Append the alert popup to the document body
+    document.body.appendChild(alertPopup);
+  
+    // Add an event listener to the close button to hide the popup when clicked
+    closeButton.addEventListener("click", () => {
+      alertPopup.style.display = "none";
+    });
+  
+    // Display the alert popup
+    alertPopup.style.display = "block";
+  };
 
   
 
