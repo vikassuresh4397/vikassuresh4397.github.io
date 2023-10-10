@@ -118,6 +118,7 @@ export const Projects = () => {
   "NetlifyUrl":"https://youtubeclone-vikas.netlify.app/"
  },
    
+ 
 ]
 
 return (
@@ -135,6 +136,7 @@ return (
         <div>
   <button className="projectType small-button" id="frontendbutton">
     <h1 className="small-text">Project Type</h1>
+    
   </button>
 
   <button id="frontendbutton" className="small-button">
