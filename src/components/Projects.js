@@ -117,8 +117,6 @@ export const Projects = () => {
   "GithubUrl":"https://github.com/vikassuresh4397/Youtube-clone",
   "NetlifyUrl":"https://youtubeclone-vikas.netlify.app/"
  },
-   
- 
 ]
 
 return (
@@ -132,7 +130,6 @@ return (
         <h2 className="project-title">{project.Name}</h2>
         <p className="project-description">{project.Description}</p>
        
-
         <div>
   <button className="projectType small-button" id="frontendbutton">
     <h1 className="small-text">Project Type</h1>

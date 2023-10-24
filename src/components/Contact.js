@@ -12,6 +12,7 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 import emailjs from 'emailjs-com';
 import {FiGithub, FiMail, FiPhone} from "react-icons/fi";
 
+
 export const Contact = () => {
   const formInitialDetails = {
     firstName: '',
