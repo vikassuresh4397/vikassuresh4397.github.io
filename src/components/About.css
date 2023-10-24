@@ -279,8 +279,7 @@
   
   /* Media Query */
   
-  @media (max-width: 1800px) {
-
+  @media (max-width: 768px) {
     .top {
       flex-direction: column;
       align-items: center;
@@ -289,10 +288,6 @@
     .right-side {
       margin-top: 20px;
       order: -1;
-    }
-    img{
-      display: flex;
-      margin: 0 auto;
     }
   }
   
@@ -339,131 +334,5 @@
     }
   }
 
+  
 
-
-
-
-
-
-
-
-  .box {
-    border: 1px solid white;
-    padding: 20px;
-    margin: 20px 0;
-    
-    
-
-  }
-
-
-  /* About.css */
-.box {
-  border: 1px solid white;
-  padding: 20px;
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-
-
-/* About.css */
-.box {
-  border: 1px solid white;
-  padding: 20px;
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.box h3 {
-  font-size: 24px;
-}
-
-.box p {
-  margin: 10px 0;
-  font-size: 18px;
-}
-
-/* Style for creating a table-like layout */
-.table {
-  display: table;
-  width: 100%;
-}
-
-.row {
-  display: table-row;
-}
-
-.cell {
-  display: table-cell;
-  padding: 5px;
-  border: 1px solid #ccc;
-}
-
-
-/* About.css */
-.box {
-  border: 1px solid #dcdcdc;
-  padding: 20px;
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: #f9f9f9;
-}
-
-.box h3 {
-  font-size: 24px;
-  color: #333;
-}
-
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 20px;
-}
-
-.row {
-  display: table-row;
-  border-bottom: 1px solid #dcdcdc;
-}
-
-.cell {
-  display: table-cell;
-  padding: 10px;
-  color: #555;
-}
-
-.cell:nth-child(odd) {
-  background-color: #f0f0f0;
-}
-
-.box{
-  color:black;
-  border:5px solid white;
-  border-radius: 10px;
-}
-
-
-h2>button{
-  border:5px solid black;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: white;
-}
-
-.box{
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-
-}
-
-.box>div>h3{
-  color:black;
-}
