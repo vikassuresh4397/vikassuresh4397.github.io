@@ -40,6 +40,13 @@ import bro202 from "../assets/Tools/newImages/codepen.png";
 import bro203 from "../assets/Tools/newImages/codesandbox.png";
 import bro204 from "../assets/Tools/newImages/replit.png";
 
+//  Deployment Tools
+import bro501 from "../assets/Deployment/netlify-logo-png-transparent.png";
+import bro502 from "../assets/Deployment/vercelapp.png";
+import bro503 from "../assets/Deployment/github_pages.jpg";
+
+const deploymentImages=[bro501,bro502,bro503];
+
 const frontEndImages = [
   bro1,
   bro2,
@@ -52,6 +59,9 @@ const frontEndImages = [
   bro9,
   bro10,
 ];
+
+const deploymentNames=["Netlify","Vercel","GitHub Pages"];
+
 const frontEndNames = [
   "CSS",
   "DSA",
@@ -130,6 +140,36 @@ export const Skills = () => {
             </div>
           ))}
         </div>
+
+
+
+
+
+
+
+        <div className="section-title">
+        <button id="frontendbutton">
+            <h1>DEPLOYMENT TOOLS</h1>
+          </button>
+        </div>
+        <div className="skills-row">
+          {deploymentImages.map((image, index) => (
+            <div className="skills-card" key={index}>
+              <img
+                src={image}
+                alt={`Backend Skill ${index + 1}`}
+                className="skills-card-img"
+              />
+              <p className="skills-card-name backend-name">
+                {deploymentNames[index]}
+              </p>
+            </div>
+          ))}
+        </div>
+
+
+
+
 
         {/* Tools */}
         <div className="section-title">
