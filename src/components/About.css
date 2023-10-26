@@ -428,15 +428,23 @@
 @media (max-width: 380px) {
   #contactt{
     margin-left: 0px;
+    margin-top: 5px;
+    border-radius: 15px;
   }
   #resumee{
     margin-left: 0px;
+    margin-top: 5px;
+    border-radius: 15px;
   }
   #hobby{
     margin-left: 0px;
+    margin-top: 5px;
+    border-radius: 15px;
   }
   #education{
     margin-left: 0px;
+    margin-top: 5px;
+    border-radius: 15px;
   }
   #aboutme{
     margin-left: 0px;
