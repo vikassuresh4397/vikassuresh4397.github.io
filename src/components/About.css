@@ -335,4 +335,68 @@
   }
 
   
+/* #user-detail-intro{
+  border:1px solid white;
+} */
+
+#aboutme{
+  border:1px solid white;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 15px;
+  margin-left: 5px;
+
+}
+
+#education{
+  border:1px solid white;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 15px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#hobby{
+  border:1px solid white;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 15px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#resumee{
+  border:1px solid white;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 15px;
+  margin-left: 5px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+
+#contactt{
+  border:1px solid white;
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 15px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+
+.top{
+  gap:15px;
+}
+
+#resume-button-2:hover {
+  background-color: green;
+}
+
 

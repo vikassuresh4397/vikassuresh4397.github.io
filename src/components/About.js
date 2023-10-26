@@ -76,7 +76,8 @@ const About = () => {
         <div className="top">
           <div className="left-side">
             <br></br>
-            <h2>About Me 👨🏼‍💻👷🏻🖥️💻</h2>
+            <div id="aboutme">
+            <h2 >About Me 👨🏼‍💻👷🏻🖥️💻</h2>
             <p id="user-detail-intro">
               I am Vikas Suresh, an aspiring Full-Stack Web Developer with
               excellent skills in administration, communication, and MERN Stack
@@ -85,7 +86,11 @@ const About = () => {
               Passionate and curious, I seek career growth in technology-driven
               companies to showcase my skills and expand my knowledge.
             </p>
-            <h3>Education 🎓📚📔📕</h3>
+            </div>
+       
+
+       <div id="education">
+       <h3>Education 🎓📚📔📕</h3>
             <p>
               Full Stack Web Development, Masai School 07/2022 – 08/2023 |
               Banglore
@@ -95,20 +100,24 @@ const About = () => {
               & Management), Pillai HoC College of Engineering & Technology 2015
               – 2023 | Rasayani | Mumbai Univesity
             </p>
-
-            <h3>Hobbies & Interests🤓🎨🖼️💰</h3>
-            <p>Shadow Painting & UI and UX designing</p>
-            <h3>Contact ME 👇🏻</h3>
+       </div>
+           
+        <div id="hobby">  <h3>Hobbies & Interests🤓🎨🖼️💰</h3>
+            <p>Shadow Painting & UI and UX designing</p></div>
+          
+          <div id="contactt">
+          <h3>Contact ME 👇🏻</h3>
             <button id="contact-email" style={{ color: "white"}}>📧-vikassuresh4397@gmail.com</button>
             <br />
             <button   id="contact-phone">  <a id="contact-phone" href="#phone" className="funnyicon" onClick={showPhoneNumber} >
             📞- (+91-9372702927)
 </a></button>
+          </div>
 
-<br />
-<br />
-<br />
-            <div >
+          </div>
+          <div className="right-side">
+            <img className="home-img" src={image6} alt="" />
+            <div id="resumee">
               <h3>Resume 📄</h3>
               <a
               id="resume-link-2"
@@ -117,53 +126,30 @@ const About = () => {
               target="_blank"
               download="Vikas-Suresh-Resume.pdf"
             >
-              <button
-                id="resume-button-2"
-                style={{
-                  color: "white",
-                  backgroundColor: "red",
-                  border: "none",
-                  padding: "10px 20px",
-                  borderRadius: "5px",
-                  cursor: "pointer",
-                }}
-                onClick={downloadResume}
-              >
-                <span>Resume</span>
-              </button>
+           <button
+  id="resume-button-2"
+  style={{
+    color: "white",
+    backgroundColor: "red",
+    border: "none",
+    padding: "10px 20px",
+    borderRadius: "5px",
+    cursor: "pointer",
+    ":hover": { backgroundColor: "green" },
+  }}
+  onClick={downloadResume}
+ 
+>
+  <span>Resume</span>
+</button>
+
+
             </a>
 
 
 
            
             </div>
-
-            
-
-
-
-
-            {/* <div className="resume-section">
-              <h3>Resume 📄</h3>
-              <button
-               id="resume-button-2"
-                onClick={downloadResume}
-                style={{
-                  color: "white",
-                  backgroundColor: "red",
-                  border: "none",
-                  padding: "10px 20px",
-                  borderRadius: "5px",
-                  cursor: "pointer",
-                }}
-                download="Vikas-Suresh-Resume.pdf"
-              >
-                Download Resume
-              </button>
-            </div> */}
-          </div>
-          <div className="right-side">
-            <img className="home-img" src={image6} alt="" />
           </div>
         </div>
         <br />
