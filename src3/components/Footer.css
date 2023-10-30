@@ -1,0 +1,33 @@
+/* CSS for the alert popup */
+.alert-popup {
+  display: none; /* Initially hide the popup */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  padding: 20px; /* Padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
+  z-index: 1000; /* Ensure it's on top of other elements */
+  color: black;
+}
+
+/* Style for the close button */
+.alert-popup .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333; /* Color of the close button */
+}
+
+/* Style for the highlighted phone number */
+.alert-popup .phone-number {
+  color: #ff5733; /* Highlighted color for the phone number */
+  font-weight: bold; /* Make the phone number bold */
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Add more styles as needed */

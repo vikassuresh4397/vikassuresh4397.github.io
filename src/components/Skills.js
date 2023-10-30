@@ -2,6 +2,7 @@ import React from "react";
 
 import "../components/Skills.css";
 
+
 // FrontEnd image imported
 import bro1 from "../assets/FrontEnd/CSS.png";
 import bro2 from "../assets/FrontEnd/Dsa.png";

@@ -25,6 +25,7 @@ function App() {
       <Skills />
       <Projects />
       <CivilProjects />
+      
       <GithubFolder />
       <Contact />
       <Footer />
