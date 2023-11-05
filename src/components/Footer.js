@@ -29,8 +29,6 @@ export const Footer = () => {
     <footer className="footer">
       <br />
       <br />
-    
-
 <div id="lastfooter">
 <h1>Contact Me</h1>
 
