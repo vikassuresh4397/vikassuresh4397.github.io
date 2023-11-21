@@ -130,12 +130,12 @@ const About = () => {
   id="resume-button-2"
   style={{
     color: "white",
-    backgroundColor: "red",
+    
     border: "none",
     padding: "10px 20px",
     borderRadius: "5px",
     cursor: "pointer",
-    hover: { backgroundColor: "green" },
+   
   }}
   onClick={downloadResume}
  

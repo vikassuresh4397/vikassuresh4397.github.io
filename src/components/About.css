@@ -4,6 +4,11 @@
     margin: 0 auto;
     padding: 20px;
   }
+
+
+  #resume-button-2{
+    background-color: red;
+  }
   
   .top {
     display: flex;
@@ -468,14 +473,16 @@ img{
 }
 
 
+
+
 #resume-button-2:hover{
   background-color: rgb(18, 199, 18);
 }
 
-#resumekabutton:hover{
+/* #resumekabutton:hover{
   background-color: rgb(18, 199, 18);
 }
 
 #resume-link-2:hover{
   background-color: rgb(18, 199, 18);
-}
+} */
