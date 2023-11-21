@@ -135,12 +135,12 @@ const About = () => {
     padding: "10px 20px",
     borderRadius: "5px",
     cursor: "pointer",
-    ":hover": { backgroundColor: "green" },
+    hover: { backgroundColor: "green" },
   }}
   onClick={downloadResume}
  
 >
-  <span>Resume</span>
+  <span id="resumekabutton">Resume</span>
 </button>
 
 

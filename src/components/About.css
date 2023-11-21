@@ -466,3 +466,16 @@ img{
   align-items: center;
   text-align: center;
 }
+
+
+#resume-button-2:hover{
+  background-color: rgb(18, 199, 18);
+}
+
+#resumekabutton:hover{
+  background-color: rgb(18, 199, 18);
+}
+
+#resume-link-2:hover{
+  background-color: rgb(18, 199, 18);
+}
