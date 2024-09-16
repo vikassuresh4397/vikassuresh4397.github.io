@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.755b5254.css",
-    "main.js": "/static/js/main.c1c487d3.js",
+    "main.js": "/static/js/main.6673aa8d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/3d-abstract-space-sky-with-stars-nebula.jpg": "/static/media/3d-abstract-space-sky-with-stars-nebula.10591a60ee9b1424effc.jpg",
     "static/media/3.jpg": "/static/media/3.f6ef76b089adca7a73c6.jpg",
@@ -41,11 +41,11 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.44b9addb3102ffa4b661011f6f7caa59.svg",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.755b5254.css.map": "/static/css/main.755b5254.css.map",
-    "main.c1c487d3.js.map": "/static/js/main.c1c487d3.js.map",
+    "main.6673aa8d.js.map": "/static/js/main.6673aa8d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.755b5254.css",
-    "static/js/main.c1c487d3.js"
+    "static/js/main.6673aa8d.js"
   ]
 }
