@@ -88,7 +88,7 @@ return (
         <div>
   <button className="projectType small-button" id="frontendbutton">
     <h1 className="small-text">Project Type</h1>
-  </button>
+  </button>{" "}
 
   <button id="frontendbutton" className="small-button">
     <h1 className="small-text">{project.TypeOfProject}</h1>
@@ -98,7 +98,7 @@ return (
 
   <button className="projectType small-button" id="frontendbutton">
     <h1 className="small-text">Project Duration</h1>
-  </button>
+  </button>{" "}
 
   <button id="frontendbutton" className="small-button">
     <h1 className="small-text">{project.Duration}</h1>
@@ -127,7 +127,8 @@ return (
         {/* Youtube video */}
 
         <div className="project-tech-stack">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/300px-YouTube_social_red_circle_%282017%29.svg.png?20220808215554" alt="" width="100" /><button className="custom-button">Click here</button>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/300px-YouTube_social_red_circle_%282017%29.svg.png?20220808215554" alt="" width="100" />
+        <button id="youtubeButton" className="custom-button">Click here</button>
 
         </div>
        

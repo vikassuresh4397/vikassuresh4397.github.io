@@ -415,3 +415,9 @@ margin-right: 5px;
     color: white;
     padding :10px;
   }
+
+  #youtubeButton:hover {
+    background-color: rgb(133, 0, 0); /* Change background color on hover */
+    color:rgb(255, 255, 255)
+    /* You can add more styles here for the hover effect */
+  }

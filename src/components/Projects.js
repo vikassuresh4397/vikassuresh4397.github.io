@@ -58,10 +58,12 @@ export const Projects = () => {
   "GithubUrl":"https://github.com/vikassuresh4397/RealEstateExplore.com",
   "NetlifyUrl":"https://homesweeter.netlify.app/"
  },
+ 
+ 
  {
   "Project_No":2,
   "Name":"InterViewWizard",
-  "ImageUrl":"https://camo.githubusercontent.com/6fcfa5d05456d7c4688b8d5fb031d1105efecffe36e8fc6b9bf198fae5fe473a/68747470733a2f2f692e706f7374696d672e63632f6d44524b315639502f53637265656e73686f742d3232312e706e67",
+  "ImageUrl":"https://camo.githubusercontent.com/aee9a995ec5f8c81a4ad0331b300cb282e8073c06ccc9e7d2df044b7bc0f3297/68747470733a2f2f692e706f7374696d672e63632f32793147314230712f53637265656e73686f742d3231342e706e67",
   "Description":"InterViewWizard is a self-interview preparation platform leveraging the power of OpenAI. The platform aims to assist job seekers and interviewees in enhancing their interview skills, boosting their confidence, and improving their chances of success during the interview process.",
   "TypeOfProject": "Group-Project-(Total members - 4)",
   "Duration":"3 Days",
@@ -134,7 +136,7 @@ return (
   <button className="projectType small-button" id="frontendbutton">
     <h1 className="small-text">Project Type</h1>
     
-  </button>
+  </button>{" "}
 
   <button id="frontendbutton" className="small-button">
     <h1 className="small-text">{project.TypeOfProject}</h1>
@@ -144,7 +146,7 @@ return (
 
   <button className="projectType small-button" id="frontendbutton">
     <h1 className="small-text">Project Duration</h1>
-  </button>
+  </button>{" "}
 
   <button id="frontendbutton" className="small-button">
     <h1 className="small-text">{project.Duration}</h1>
