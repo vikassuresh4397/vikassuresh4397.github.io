@@ -46,14 +46,14 @@ const About = () => {
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href =
-    "https://drive.google.com/file/d/1wCB07ly2sLSkm0UhprhqmGrm_reZOw93/view?usp=sharing";
+    "https://drive.google.com/file/d/1wuoepHaz4qTtz9O-ZzckMBjx2lvq0vMS/view?usp=sharing";
   link.target = "_blank";
   link.download = "Vikas-Suresh-Resume.pdf";
     link.click();
 
     // Redirect to the downloaded resume after a delay
     setTimeout(() => {
-      window.open( "https://drive.google.com/file/d/1wCB07ly2sLSkm0UhprhqmGrm_reZOw93/view?usp=sharing"
+      window.open( "https://drive.google.com/file/d/1wuoepHaz4qTtz9O-ZzckMBjx2lvq0vMS/view?usp=sharing"
       , "_blank");
     }, 1000);
   };
